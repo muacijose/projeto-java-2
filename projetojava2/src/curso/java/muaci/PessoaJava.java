@@ -8,8 +8,15 @@ public class PessoaJava {
 	private String sobrenome;
 	private int idade;
     private Date dataNascimeto;
+    private Date datanascimento2;
 	
 	
+	public Date getDatanascimento2() {
+		return datanascimento2;
+	}
+	public void setDatanascimento2(Date datanascimento2) {
+		this.datanascimento2 = datanascimento2;
+	}
 	public Date getDataNascimeto() {
 		return dataNascimeto;
 	}
