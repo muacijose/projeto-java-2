@@ -3,7 +3,11 @@ package projetojava2;
 public class Projetos {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	 
+		Integer numero =10;
+		Integer numer = 20;
+		
+		
 
 	}
 
