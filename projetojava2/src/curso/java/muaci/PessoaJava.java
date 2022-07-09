@@ -1,12 +1,21 @@
 package curso.java.muaci;
 
+import java.util.Date;
+
 public class PessoaJava {
 	
 	private String nome;
 	private String sobrenome;
 	private int idade;
+    private Date dataNascimeto;
 	
 	
+	public Date getDataNascimeto() {
+		return dataNascimeto;
+	}
+	public void setDataNascimeto(Date dataNascimeto) {
+		this.dataNascimeto = dataNascimeto;
+	}
 	public int getIdade() {
 		return idade;
 	}
